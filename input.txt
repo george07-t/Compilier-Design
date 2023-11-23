@@ -1,0 +1,144 @@
+hed lib.h
+hed stdlib.h
+
+inn ASOL(): {
+$$ Initialization $$
+var a:inn 
+var b:fnn << 5.0
+var c:cnn << "Compiler"
+a <<20
+var value:inn
+value << 100
+showi(value)
+shows("hello world")
+
+$$ Print to User $$
+showi(a)
+showf(b)
+shows(c)
+
+$$$ User Input
+var x:inn
+givei(x,10)
+showi(x)
+
+$$$ Integer Add Sub Mul Div Mod
+var n1:inn << 10
+var n2:inn << 5
+var res:inn
+
+res << +(n1,n2)
+showi(res)
+
+res << -(n1,n1)
+showi(res)
+
+res << *(n1,n2)
+showi(res)
+
+res << /(n1,n2)
+showi(res)
+
+res << %(n1,n2)
+showi(res)
+
+
+$$$ Increment Decrement
+var inc:inn << 114
+inc << +(inc,+)
+showi(inc)
+
+var dec:inn << 114
+dec << -(dec,-)
+showi(dec)
+
+$$ Condition $$
+showi(<(1,2))
+showi(>(7,5))
+showi(==(114,114))
+showi(!=(112,112))
+showi(<=(110,78))
+showi(>=(25,5))
+
+
+$$ Array $$
+@arr:inn[100]
+{@arr,0} << 1
+{@arr,5} << 5
+showi({@arr,0})
+showi({@arr,5})
+pfa(<@arr,0>)
+
+$$$ IF ELSE
+var a1:inn << 5
+ff[==(a1,5)]{
+    a1
+}
+ffe[<(a1,5)]{
+    +(a1,+)
+}
+ffnd{
+    -(a1,-)
+}     
+
+$$$ Switch Case
+var b1:inn << 2
+var c1:inn << 5
+var d1:inn << 100
+swit[b1]
+alt[1]:
+   10
+alt[2]:
+   fto[c1, >(c1,0), -(c1,-)]{
+      d1
+} 
+alt[3]:
+   30
+non:
+   40
+   
+$$$ FOR Loop
+
+fto[c1, >(c1,0), -(c1,-)]{
+      d1
+}    
+
+$$$ WHILE Loop
+var e1:inn << 1
+var brk:inn << 6
+wto[<(e1,5)]{
+    d1
+}      
+wto[1]{
+    d1
+    stop(brk)
+}
+
+$$ DO WHILE Loop $$
+var f1:inn << 1
+do{
+    d1
+}
+to[<(f1,5)]        
+               
+$$ Some Build in Functions $$
+sf->LEN("CSE 3212")
+sf->PRIME(7)
+sf->MIN(115,114)
+sf->MAX(120,60)
+sf->GCD(5,20)
+sf->SIN(45.0)
+sf->COS(45.0)
+sf->TAN(45.0)
+sf->POW(5,2)
+sf->FLOOR(114.5)
+sf->CEIL(114.5)
+
+ses(0)
+}
+
+$$ Function Implementation $$
+showi(inn proc->jok(110,120,):{	
+	230 
+    ses
+})

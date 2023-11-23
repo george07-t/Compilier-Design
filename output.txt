@@ -1,0 +1,82 @@
+This is a Multiline Comment
+100
+hello world
+This is a Multiline Comment
+20
+5.000000
+Compiler
+This is a Singleiline Comment
+10
+This is a Singleiline Comment
+15
+0
+50
+2
+0
+This is a Singleiline Comment
+115
+113
+This is a Multiline Comment
+1
+1
+1
+0
+0
+1
+This is a Multiline Comment
+1
+5
+1
+This is a Singleiline Comment
+ELSE statement output2 4
+IF statement output2 5
+This is a Singleiline Comment
+
+Switch statement.
+****FOR LOOP****
+output:100
+output:100
+output:100
+output:100
+output:100
+Case 2:
+This is a Singleiline Comment
+****FOR LOOP****
+output:100
+output:100
+output:100
+output:100
+output:100
+This is a Singleiline Comment
+****WHILE LOOP****
+Output:100
+Output:100
+Output:100
+Output:100
+****WHILE LOOP****
+Output:100
+Output:100
+Output:100
+Output:100
+Output:100
+Output:100
+This is a Multiline Comment
+****DO WHILE LOOP****
+Output:100
+Output:100
+Output:100
+Output:100
+This is a Multiline Comment
+Lenght of string: 8
+Prime.
+114
+120
+5
+0.707108
+0.707105
+1.000004
+1.000000
+114
+115
+This is a Multiline Comment
+460
